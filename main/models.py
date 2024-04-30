@@ -23,7 +23,7 @@ class Product(models.Model):
 
 class Comment(models.Model):
     comment = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='comment')
-    my_comment = models.TextField('Комментарий')
+    my_comment = models.TextField('Комментарий1')
 
 
 
