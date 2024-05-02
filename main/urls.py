@@ -4,7 +4,7 @@ from .views import UserRegistrationView, ProductAPIView1, UserRegistrationView1,
 
 urlpatterns = [
     path('api/glava/', ProductAPIView1.as_view()),
-    path('api/vika/', UserRegistrationView.as_view(), name='token_obtain2_pasir'),
-    path('api/vika12/', UserRegistrationView1.as_view(), name='token_obtain2_pasir'),
+    path('api/tivi/', UserRegistrationView.as_view(), name='token_obtain2_pasir'),
+    path('api/via12/', UserRegistrationView1.as_view(), name='token_obtain2_pasir'),
     path('api/grait14/', UserRegistrationView2.as_view(), name='token_obtain2_pasir'),
 ]
